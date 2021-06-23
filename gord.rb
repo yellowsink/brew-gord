@@ -13,7 +13,7 @@ class Gord < Formula
       ENV["GOPATH"] = HOMEBREW_CACHE/"go_cache"
       (buildpath/"src/github.com/yellowsink/gord").install buildpath.children
       cd "src/github.com/yellowsink/gord" do
-        system "go", "build", "-o", bin/"cordless"
+        system "go", "build", "-o", bin/"gord"
         prefix.install_metafiles
       end
     end
