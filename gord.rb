@@ -3,7 +3,7 @@ class Gord < Formula
     homepage "https://github.com/yellowsink/gord"
     url "https://github.com/yellowsink/gord/archive/2021-07-14.tar.gz"
     version "2021-07-14"
-    sha256 "b3a3611d71280f6c2532368c596ad9deac57f0fd897528f88d11fe52171022f1"
+    sha256 "1c1fbbdc753e71fd9b5ccb7f0ba14483decbc0d313e319c1145a871373e3ae02"
     head "https://github.com/yellowsink/gord.git"
   
     depends_on "go" => :build
