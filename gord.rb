@@ -1,9 +1,9 @@
 class Gord < Formula
     desc "Discord TUI client"
     homepage "https://github.com/yellowsink/gord"
-    url "https://github.com/yellowsink/gord/archive/2021-06-17.tar.gz"
-    version "2021-06-17"
-    sha256 "348ae34c88171f306b9737edc565135ce06f9c9b92453c8a3611318a8e629960"
+    url "https://github.com/yellowsink/gord/archive/2021-07-14.tar.gz"
+    version "2021-07-14"
+    sha256 "b3a3611d71280f6c2532368c596ad9deac57f0fd897528f88d11fe52171022f1"
     head "https://github.com/yellowsink/gord.git"
   
     depends_on "go" => :build
